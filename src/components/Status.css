@@ -1,0 +1,56 @@
+.status-view {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.status-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.status-columns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.status-column {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.status-header {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.status-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.status-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.status-item:hover {
+  background-color: #f1f1f1;
+}

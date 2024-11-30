@@ -1,0 +1,62 @@
+/* Styles for the dropdown container */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding: 10px;
+}
+
+.dropdown-section {
+  margin-bottom: 10px;
+}
+
+.dropdown-section label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.dropdown-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-section ul li {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.dropdown-section ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.selections {
+  margin-top: 20px;
+}
